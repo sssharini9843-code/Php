@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Text Formatting Demonstration</title>
+</head>
+<body>
+
+    <h1>Essential HTML Text Formatting</h1>
+    
+    <p>This paragraph demonstrates how to use <b>bold text</b> to visually draw attention to specific words.</p>
+    
+    <p>This paragraph demonstrates how to use <i>italic text</i> to denote a title, term, or alternative voice.</p>
+    
+    <p>This paragraph demonstrates how to use <u>underlined text</u>, which is helpful for emphasizing specific spelling errors or book titles.</p>
+    
+    <p>This paragraph demonstrates how to use <sup>superscript text</sup>, which is commonly used for math exponents like E = mc<sup>2</sup> or footnotes<sup>[1]</sup>.</p>
+
+    <hr>
+
+    <h2>Combined Text Formatting Examples</h2>
+    <p>You can also nest tags to create <b><i>bold and italic text</i></b> or even <b><u><i>bold, underlined, and italic text</i></u></b> together.</p>
+
+</body>
+</html>
