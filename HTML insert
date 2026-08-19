@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hyperlink Example</title>
+</head>
+<body>
+
+    <h1>Clickable Image Example</h1>
+    <p>Click the image below to visit the website.</p>
+
+    <!-- The anchor tag creates the hyperlink -->
+    <a href="https://www.wikipedia.org" target="_blank" title="Visit Wikipedia">
+        <!-- The image tag displays the picture inside the link -->
+        <img src="https://wikimedia.org" 
+             alt="Wikipedia Logo" 
+             width="200" 
+             height="200">
+    </a>
+
+</body>
+</html>
