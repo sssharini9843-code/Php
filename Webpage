@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Portal</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Container for horizontal scrolling on small screens */
+        .table-container {
+            width: 100%;
+            max-width: 1000px;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        /* Table Design */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        /* Header Styling */
+        thead th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: 600;
+            padding: 12px 15px;
+        }
+
+        /* Data Rows Styling */
+        tbody td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            color: #555;
+        }
+
+        /* Zebra Striping for Readability */
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Hover Effect */
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Status Badge Colors */
+        .badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .badge.pass {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .badge.fail {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Information Dashboard</h2>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Email</th>
+                    <th>Attendance</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Emma Watson</td>
+                    <td>Computer Science</td>
+                    <td>emma.w@example.com</td>
+                    <td>94%</td>
+                    <td>A</td>
+                    <td><span class="badge pass">Pass</span></td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Liam Neeson</td>
+                    <td>Mechanical Eng.</td>
+                    <td>liam.n@example.com</td>
+                    <td>88%</td>
+                    <td>B</td>
+                    <td><span class="badge pass">Pass</span></td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Sophia Loren</td>
+                    <td>Data Science</td>
+                    <td>sophia.l@example.com</td>
+                    <td>62%</td>
+                    <td>E</td>
+                    <td><span class="badge fail">Fail</span></td>
+                </tr>
+                <tr>
+                    <td>104</td>
+                    <td>John Doe</td>
+                    <td>Information Tech.</td>
+                    <td>john.d@example.com</td>
+                    <td>91%</td>
+                    <td>A+</td>
+                    <td><span class="badge pass">Pass</span></td>
+                </tr>
+                <tr>
+                    <td>105</td>
+                    <td>Clara Oswald</td>
+                    <td>Electrical Eng.</td>
+                    <td>clara.o@example.com</td>
+                    <td>79%</td>
+                    <td>C</td>
+                    <td><span class="badge pass">Pass</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
