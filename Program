@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists Example</title>
+</head>
+<body>
+
+    <h1>Examples of HTML Lists</h1>
+
+    <!-- Unordered List Section -->
+    <h2>Unordered List (Bulleted)</h2>
+    <p>This list displays items in no specific order:</p>
+    <ul>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Butter</li>
+    </ul>
+
+    <!-- Ordered List Section -->
+    <h2>Ordered List (Numbered)</h2>
+    <p>This list displays items in a sequential order:</p>
+    <ol>
+        <li>Wake up early</li>
+        <li>Exercise for 30 minutes</li>
+        <li>Eat a healthy breakfast</li>
+        <li>Start working</li>
+    </ol>
+
+</body>
+</html>
